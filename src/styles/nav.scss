@@ -1,0 +1,37 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    z-index: 5;
+    // background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 18px black;
+    height: 5vh;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    nav , .logo{
+        // background-color: antiquewhite;
+        height: 100%;
+        width: 50%;
+    }
+    .logo{
+        // background-color: rgb(32, 122, 200);
+    }
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    
+
+}

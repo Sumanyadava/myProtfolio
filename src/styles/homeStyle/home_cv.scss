@@ -1,0 +1,42 @@
+
+@mixin flx() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv{
+    scroll-snap-align: start;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(29, 33, 255);
+    @include flx();
+    
+}
+.cv_container{
+    height: 100vh;
+    width: 80%;
+    // background-color: rgb(58, 38, 38);
+    @include flx();
+}
+.points{
+    background-color: rgb(97, 240, 157);
+    height: 80vh;
+    width: 19%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.write{
+    background-color: rgb(255, 186, 95);
+    height: 80vh;
+    width: 80%;
+}
+h1{
+    
+    font-size: 2rem;
+    color: aliceblue;
+
+}

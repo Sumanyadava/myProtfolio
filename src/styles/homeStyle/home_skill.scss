@@ -1,0 +1,48 @@
+.skill_container{
+    scroll-snap-align: start;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(224, 224, 60);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill_tech,.skill_proj{
+    height: 100%;
+    width: 40%;
+    background-color: aqua;
+}
+.skill_nav{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.ty{
+    margin-top: 30px;
+    font-size: 80px;
+    height: 15%;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.before,.after{
+    font-size: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: ease .4s;  
+}
+
+.ty:hover>.before,.ty:hover>.after{
+
+    display: block;
+    font-size: 80px;
+    // background-color: aliceblue;
+}

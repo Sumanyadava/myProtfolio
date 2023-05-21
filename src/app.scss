@@ -1,0 +1,33 @@
+$Primary:rgb( 255, 255, 255);
+$Secondary: rgb( 25, 25, 25);
+$Primary_Button: rgb( 64, 91, 255);
+$Secondary_Button: rgb( 33, 33, 33);
+$Accent: rgb( 235, 255, 56);
+
+
+* {
+  user-select: none;
+}
+.bd {
+  scroll-behavior: smooth;
+  
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+html {
+  scroll-snap-type: y proximity;
+}
+html::-webkit-scrollbar{  //for chrome,safari,opera
+    display: none;
+
+}
+html::-webkit-scrollbar{  //for firefox
+ scrollbar-width: none;
+
+}
+html::-webkit-scrollbar{  //for edge
+    -ms-overflow-style:none ;
+   
+   }
