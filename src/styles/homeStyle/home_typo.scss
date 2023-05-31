@@ -1,11 +1,39 @@
+$Background:black;
+$Text: #b7ab98;
+$Primary_Button: #1ac9ff;
+$Secondary_Button: #311C60;
+$Accent: #f0286e;
+.tyno{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 15rem;
+}
 .typoN{
     scroll-snap-align: start;
-    height: 60vh;
+    height: 40vh;
     width: 100%;
-    background-color:rgb(6,48,255);
+    
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: $Background;
+    // background-image:radial-gradient($Background,$Secondary_Button);
 
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15rem;
+    z-index: 0;
 }
+.hidden{
+    height: 60vh;
+    color: $Background;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+
+

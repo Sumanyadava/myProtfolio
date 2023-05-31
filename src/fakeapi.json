@@ -1,0 +1,30 @@
+{
+    "name":"Suman",
+    "nest":{
+        "fuck":"you afdas qweqwe "
+    },
+
+    "skills":{
+        "Expertise": ["The two fields are:","web development","video editing"],
+        "Design":["Figma","adobe illustator","adobe photoshop"],
+        "Web":["React","Scss","php","MySqli" ,"DBMS", "html","css" ,"js"],
+        "App":["Java","XML","Sqlite","android studio"],
+        "Other":["Python","AI/ML (not experienced)","C++","py automation","youtube"]
+
+
+    },
+    "project":{
+        "Expertise": ["web development","video editing","help"],
+        "Design":["adobe primear pro","after effercts"],
+        "Web":["html","css"],
+        "App": ["andoid","asdasd"],
+        "Other":["python","youtube"]
+    },
+    "pict": 
+        {
+            "id":1,
+            "caption": "icon 1",
+            "icon": "asd"
+        }
+    
+}

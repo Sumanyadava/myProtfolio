@@ -14,6 +14,7 @@ const Home = () => {
             <HomeClock />
             <Homety />
             <Homecv />
+            
             <Homeskills />
         </div>
     )

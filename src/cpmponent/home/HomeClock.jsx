@@ -9,9 +9,9 @@ const HomeClock = () => {
             
             <div className="time"></div>
             <div className="name">
-                <h2>The Current Mission Ends In</h2>
+                <h2 className="upp h2">The Current Mission Ends In</h2>
                 <div className="tim">24:45</div>
-                <h3>Excute Aws</h3>
+                <h2 className="downn h2">Excute Aws</h2>
             </div>
         </div>
     )

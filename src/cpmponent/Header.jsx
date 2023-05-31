@@ -1,12 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-
+import data from '../fakeapi.json'
 import '../styles/nav.scss'
 
 const Header = () => {
     return (
         <div className="head">
-        <div className="logo">hello</div>
+        <div className="logo ">{data.name}</div>
         <nav>
             
             <Link to="/">Home</Link>
@@ -15,7 +15,7 @@ const Header = () => {
 
             <Link to="/services">Services</Link>
 
-            <Link to="/Contact">Contact ME</Link>
+            <Link to="/Contact">Admin</Link>
         </nav>
         </div>
     )

@@ -1,3 +1,8 @@
+$Background:rgb(0, 0, 0);
+$Text: rgb(255, 255, 255);
+$Primary_Button: #1ac9ff;
+$Secondary_Button: #504ee4;
+$Accent: #f0286e;
 
 @mixin flx() {
     display: flex;
@@ -9,34 +14,39 @@
     scroll-snap-align: start;
     height: 100vh;
     width: 100%;
-    background-color: rgb(29, 33, 255);
+    background-image: linear-gradient(313deg,#242424,#707080);
+    // background-color: black;
     @include flx();
+    
     
 }
 .cv_container{
-    height: 100vh;
+    height: 80vh;
     width: 80%;
-    // background-color: rgb(58, 38, 38);
+    background-image: linear-gradient(318deg,#1B1B23,#2E313A);
     @include flx();
 }
 .points{
-    background-color: rgb(97, 240, 157);
+    // background-color: rgb(97, 240, 157);
     height: 80vh;
     width: 19%;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     margin-left: 10px;
+    
 }
 .write{
-    background-color: rgb(255, 186, 95);
+    // background-color: rgb(255, 186, 95);
+    
     height: 80vh;
     width: 80%;
 }
 h1{
-    
+    z-index: 3;
     font-size: 2rem;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
 
 }
